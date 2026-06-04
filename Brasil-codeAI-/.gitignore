@@ -1,0 +1,4 @@
+modelos/
+ai/logs/
+node_modules/
+.env

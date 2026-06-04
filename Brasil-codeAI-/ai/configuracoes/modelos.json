@@ -1,0 +1,51 @@
+{
+  "modelo_ativo": "qwen-2.5-coder-32b",
+  "modelos_disponiveis": [
+    {
+      "id": "qwen-2.5-coder-32b",
+      "nome": "Qwen 2.5 Coder 32B",
+      "provedor": "groq",
+      "contexto_maximo": 32768,
+      "parametros_padrao": {
+        "temperature": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 4096
+      }
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-32b",
+      "nome": "DeepSeek R1 Qwen 32B",
+      "provedor": "groq",
+      "contexto_maximo": 32768,
+      "parametros_padrao": {
+        "temperature": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 4096
+      }
+    },
+    {
+      "id": "llama-3.3-70b-versatile",
+      "nome": "Llama 3.3 70B",
+      "provedor": "groq",
+      "contexto_maximo": 32768,
+      "parametros_padrao": {
+        "temperature": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 4096
+      }
+    },
+    {
+      "id": "qwen3.6-35b-a3b",
+      "nome": "Qwen 3.6 35B (Local)",
+      "provedor": "llamafile",
+      "contexto_maximo": 32768,
+      "arquivo": "Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ2_M.gguf",
+      "mmproj": "mmproj-Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-BF16.gguf",
+      "parametros_padrao": {
+        "temperature": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 4096
+      }
+    }
+  ]
+}
